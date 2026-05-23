@@ -409,6 +409,7 @@ obj/
 /wwwroot/node_modules
 
 ### VisualStudioCode ###
+.vscode/
 !.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
