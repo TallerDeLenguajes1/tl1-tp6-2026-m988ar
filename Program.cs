@@ -85,6 +85,27 @@ do
             }
             Console.WriteLine("Resultado: " + resultado);
         }
+        System.Console.WriteLine("Elija dos numeros para saber cual es el minimo y maximo");
+        if (!float.TryParse(Console.ReadLine(), out float num3))
+        {
+            System.Console.WriteLine("Ingrese un valor valido");
+        }
+        if (!float.TryParse(Console.ReadLine(), out float num4))
+        {
+            System.Console.WriteLine("Ingrese un valor valido");
+        }
+        if (num3 > num4)
+        {
+            System.Console.WriteLine("Mayor:" + num3 +"\nMenor: " + num4);
+        }
+        else if(num3 < num4)
+        {
+            System.Console.WriteLine("Mayor:" + num4 +"\nMenor: " + num3);
+        }
+        else
+        {
+            System.Console.WriteLine("Son iguales");
+        }
     }
     else
     {
